@@ -1,10 +1,9 @@
 global main
 main:
-
- mov rax, 0x726c64
+ mov rax, 0x646c72
  push rax
 
- mov rax, 0x68656c6c6f20776f
+ mov rax, 0x6f77206f6c6c6568
  push rax
 
  mov rax, 1

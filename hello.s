@@ -1,14 +1,16 @@
 global main
 main:
- mov rax, 0x646c726f77206f
+
+ mov rax, 0x726c64
  push rax
- mov rax, 0x6c6c6568
+
+ mov rax, 0x68656c6c6f20776f
  push rax
 
  mov rax, 1
  mov rdi, 1
  mov rsi, rsp
- mov rdx, 16
+ mov rdx, 11
  syscall
 
  mov rax, 60
